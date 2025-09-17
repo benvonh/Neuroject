@@ -1,11 +1,14 @@
+#!/usr/bin/env python3
 """
-Main GUI application for drawing simple geometry
+Neuroject - Simple GUI for drawing geometry
+
+A simple Python application using tkinter to create a GUI window
+for drawing lines and dots on a canvas.
 """
 
 import tkinter as tk
 from tkinter import ttk, messagebox
 from typing import Optional, Tuple, List
-import math
 
 
 class DrawingCanvas:
