@@ -4,3 +4,17 @@ result-*
 
 # Ignore automatically generated direnv output
 .direnv
+
+# Python cache and compiled files
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
